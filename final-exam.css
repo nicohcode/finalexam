@@ -1,10 +1,13 @@
-.container {
+.container{
   max-width: 700px;
-  overflow: auto;
-  margin: 0 auto;
-  background-color: GreenYellow;
-  padding: 10px
+    margin:0 auto;
+  background: GreenYellow;
+  padding: 15px;
+overflow: auto;
+
+
 }
+
 
 
 body{
@@ -12,14 +15,73 @@ body{
 }
 
 
-.left-column{
-    float: left;
-    overflow: auto;
-    width: 67%;
-  }
+.container img{
+  max-width: 66%;
 
-  .right-column{
-    float: left;
-    overflow: auto;
-    width: 33%;
-  }
+}
+
+
+@media (min-width: 650px){
+
+
+.left-column{
+  width: 66%;
+  float: left;
+
+}
+
+
+
+
+.right-column{
+  width:34%;
+  float: left;
+  margin-top: 0px;
+  font-size: 24pt;
+  font-style: italic;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+a {
+  color: white;
+}
+
+
+
+h3{
+  font-weight: lighter;
+  margin: 2px;
+  font-family: Georgia;
+
+}
+
+
+h2{
+  margin-top: 0px;
+  font-size: 20pt;
+  font-style: italic;
+  font-family: Georgia;
+  border-right: 20px;
+}
+
+
+
+h1{
+  font-family: Georgia;
+}
+
+ul{
+  font-size: 12pt;
+}
+
+.source{
+  border-bottom: 5px solid black;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+}
