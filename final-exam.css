@@ -81,7 +81,11 @@ ul{
   font-size: 12pt;
 }
 
-
+.right-column{
+  border-top: 5px solid grey;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+}
 
 
 
