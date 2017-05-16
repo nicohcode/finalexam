@@ -1,0 +1,25 @@
+.container {
+  max-width: 700px;
+  overflow: auto;
+  margin: 0 auto;
+  background-color: GreenYellow;
+  padding: 10px
+}
+
+
+body{
+  background-color: Grey;
+}
+
+
+.left-column{
+    float: left;
+    overflow: auto;
+    width: 67%;
+  }
+
+  .right-column{
+    float: left;
+    overflow: auto;
+    width: 33%;
+  }
